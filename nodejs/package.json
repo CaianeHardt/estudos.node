@@ -1,0 +1,31 @@
+{
+    "name": "projeto-nodejs-rest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CaianeHardt/estudos.node"
+    },
+    "author": "caiane hardt",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CaianeHardt/estudos.node"
+    },
+    "homepage": "https://github.com/CaianeHardt/estudos.node",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "consign": "^0.1.6",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "mysql2": "^2.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14",
+        "save-dev": "^0.0.1-security"
+    }
+}
